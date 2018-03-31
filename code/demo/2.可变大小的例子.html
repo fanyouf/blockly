@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script src="https://blockly-demo.appspot.com/static/blockly_compressed.js"></script>
+	<script src="https://blockly-demo.appspot.com/static/blocks_compressed.js"></script>
+	<script src="https://blockly-demo.appspot.com/static/msg/js/zh-hans.js"></script>
+	<h1>下面引入blockly</h1>
+	<p>js代码实现：改变窗口大小会自动改变blockly工作区的大小。</p>
+	<p>主要使用监听window的resize事件。</p>
+	<div id="blocklyDiv" style="border:1px solid #ccc;"> </div>  
+
+	<!-- 工具箱 -->
+	<xml id="toolbox" style="display: none">
+	  <block type="controls_if"></block>
+	  <block type="controls_repeat_ext"></block>
+	  <block type="logic_compare"></block>
+	  <block type="math_number"></block>
+	  <block type="math_arithmetic"></block>
+	  <block type="text"></block>
+	  <block type="text_print"></block>
+	</xml> 
+	
+	<script type="text/javascript">
+
+		function resize(){
+			var x = window.document.body.clientWidth;
+			var width = parseInt(750*x/ 1200)
+			var height = 0.6*width;
+			var element = document.getElementById("blocklyDiv")
+			element.style.width = width + "px"
+			element.style.height = height + "px"
+		}
+		window.addEventListener('resize', resize, false);
+		resize();
+  		var workspace = Blockly.inject('blocklyDiv',
+      		{toolbox: document.getElementById('toolbox')});
+	</script>
+</body>
+</html>

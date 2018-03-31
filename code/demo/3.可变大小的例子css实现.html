@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			display: flex;
+			flex-direction: column;
+
+		}
+		#blocklyDiv{
+			position: absolute;
+			top:200px;
+			bottom:20px;
+			left:20px;
+			right:20px;
+/*			width: 80%;
+			height: 400px;
+			margin:auto;*/
+		}
+	</style>
+</head>
+<body>
+	<script src="https://blockly-demo.appspot.com/static/blockly_compressed.js"></script>
+	<script src="https://blockly-demo.appspot.com/static/blocks_compressed.js"></script>
+	<script src="https://blockly-demo.appspot.com/static/msg/js/zh-hans.js"></script>
+	<h2>下面引入blockly</h2>
+	<p>css实现：改变窗口大小会自动改变blockly工作区的大小。</p>
+	<p>主要使用绝对定位</p>
+	<div id="blocklyDiv" style="border:1px solid #ccc;"> </div>  
+
+	<!-- 工具箱 -->
+	<xml id="toolbox" style="display: none">
+	  <block type="controls_if"></block>
+	  <block type="controls_repeat_ext"></block>
+	  <block type="logic_compare"></block>
+	  <block type="math_number"></block>
+	  <block type="math_arithmetic"></block>
+	  <block type="text"></block>
+	  <block type="text_print"></block>
+	</xml> 
+	
+	<script type="text/javascript">
+  		var workspace = Blockly.inject('blocklyDiv',
+      		{toolbox: document.getElementById('toolbox')});
+	</script>
+</body>
+</html>
