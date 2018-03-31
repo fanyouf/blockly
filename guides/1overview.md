@@ -38,10 +38,10 @@ Blockly是一个库，它为Web和Android应用程序添加了一个可视代码
 
 即便拥有上述优势，Blockly不是每个应用程序的解决方案。以下是您可能会发现的其他一些可视编辑器：
 
-1. Scratch Blocks（https://scratch.mit.edu/developers）：由来自MIT的Scratch，基于Blockly代码库，Scratch Blocks提供了一个适合年轻学习者的简化编程模型。
+1. [Scratch Blocks](https://scratch.mit.edu/developers)：由来自MIT的Scratch，基于Blockly代码库，Scratch Blocks提供了一个适合年轻学习者的简化编程模型。
 
-2. Droplet（https://github.com/PencilCode/droplet）：支持Pencil Code的图形化编程编辑器，其独特之处在于可以将代码转换为块。
+2. [Droplet](https://github.com/PencilCode/droplet)：支持Pencil Code的图形化编程编辑器，其独特之处在于可以将代码转换为块。
 
-3. Snap（https://github.com/jmoenig/Snap--Build-Your-Own-Blocks）： Scratch灵感的图形化编程语言，它不是一个库，而是一个集成执行环境的完整应用程序。
+3. [Snap](https://github.com/jmoenig/Snap--Build-Your-Own-Blocks)： Scratch灵感的图形化编程语言，它不是一个库，而是一个集成执行环境的完整应用程序。
 
 
