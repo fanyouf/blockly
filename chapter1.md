@@ -1,3 +1,30 @@
-# First Chapter
+# 基本介绍
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+block的：
+1. github(https://github.com/google/blockly)
+2. 官网介绍(https://developers.google.com/blockly/guides/overview)
+
+## blockly 是什么
+1. google发布的可视化编程工具。
+- 它是编程工具，也就是说它是用来编程的。
+- 它是可视化的。操作界面是可视化的。用户通过拖动模块(block)，对某干个模块进行不同组合，这个组合的过程就是编程。这个过程看起来像是搭积木，但与搭积木不同，搭积木相对容易：积木块大多只是物理形状大小上不同，而编程的过程是会带有逻辑性的，例如循环，选
+择等等。
+- 在开发者的角度，每一个block就是一条（或者多条）代码，各种block的组合就组成了多条程序语句，从而实现了编程。
+
+2. 特性
+- 完全是js，所以这个编程工具可以离线使用。
+- 可生成6种语言: javascript, python, php,dart,lua,xml
+- 支持多国语言
+- 易于扩展自定义的块。
+
+3. 理解整体过程。
+
+```
+用户  -----拖动block------>  解决问题   ----生成指定语言的代码--->  代码
+
+```
+
+
+
+## blockly 不是什么
+
