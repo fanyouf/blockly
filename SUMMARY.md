@@ -9,3 +9,7 @@
 	* [在网页中引入blockly-实例-可变大小](guides/4.resizable-size-web-configure.md)
 	* [添加自定义块](guides/5.add-custom-block.md)
 	* [详解工具箱](guides/6.toolbox.md)
+	* [代码生成器](guides/7.code-generators.md)
+	* [网格](guides/8.gird.md)
+	* [工作区缩放](guides/9.zoom.md)
+	* [事件](guides/10.events.md)
